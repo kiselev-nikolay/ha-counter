@@ -12,11 +12,12 @@ import (
 )
 
 var text = []byte(`HTTP/1.1 200 OK
-Server: High Availability Counter
-Accept-Ranges: bytes
-Content-Length: 2
-Connection: close
+Server: HA-Counter (github.com/kiselev-nikolay/ha-counter)
+Connection: keep-alive
+Cache-Control: no-store
+Access-Control-Allow-Origin: *
 Content-Type: text/plain
+Content-Length: 2
 
 ok`)
 
